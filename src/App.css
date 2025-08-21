@@ -1,0 +1,9 @@
+
+.float-btn:hover {
+  animation: float 1s ease-in infinite alternate;
+}
+
+@keyframes float {
+  from { transform: translateY(0); }
+  to   { transform: translateY(-5px); }
+}
