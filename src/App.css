@@ -7,3 +7,28 @@
   from { transform: translateY(0); }
   to   { transform: translateY(-5px); }
 }
+
+.tilt-card:hover {
+  animation: tilt 0.5s ease-in-out  forwards;
+
+}
+
+@keyframes tilt {
+  from { transform: rotate(3deg); }
+  to   { transform: rotate(0deg); }
+}
+
+.nav-link {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-family: system-ui, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 6px 12px;
+  border-radius: 9999px;
+  transition: all 0.2s ease;
+}
+.nav-link:hover {
+  background: rgba(0, 0, 0, 0.05);
+  color: var(--text-primary);
+}
