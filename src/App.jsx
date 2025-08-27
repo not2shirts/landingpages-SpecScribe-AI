@@ -1,4 +1,4 @@
-import Header from './components/Header/header'
+import Header from './components/Header/Header'
 import { Button } from '@/components/ui/button'
 import './App.css'
 import Hero from './components/Hero/Hero'
